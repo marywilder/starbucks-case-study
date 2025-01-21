@@ -1361,6 +1361,21 @@ section .after {
     }
 }
 
+@media screen and (max-width: 700px) {
+   .team-container .team-member {
+       flex-direction: column !important;
+    }
+
+    .team-member img {
+        max-width: 25vw;
+        max-height: 25vw;
+        width: 25vw;
+        height: 25vw;
+        margin-bottom: 2rem;
+    }
+
+}
+
 
 
 
