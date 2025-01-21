@@ -1366,8 +1366,10 @@ section .after {
 
 
 h2, h3, h4, h5, h6 {
-    font-family: 'SoDo Sans';
+    font-family: 'SoDo Sans' !important;
 }
 
 
-
+html {
+    overflow: hidden;
+}
