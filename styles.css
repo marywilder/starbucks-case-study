@@ -102,7 +102,7 @@ h1, h2, h3, h4 {
 nav {
     cursor: pointer;
     position: fixed;
-    top: 10rem;
+    top: 1rem;
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.699);
@@ -111,14 +111,13 @@ nav {
     border-bottom-right-radius: .25rem;
     font-weight: 300;
     color: var(--starbucks-green);
-    line-height: var(--line-height-paragraph);
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 nav a {
     font-weight: 400;
     color: var(--secondary-background);
-    line-height: var(--line-height-paragraph);
+    line-height: 1.75rem;
     font-size: .8rem;
     text-decoration: none;
     padding: .2rem 1rem 0rem;
@@ -483,8 +482,8 @@ min-width: 0;
 .google-search p {
     background-color: var(--background-color);
     border-radius: var(--rounded-corners);
-    max-width: 15vw;
-    max-height: 15vw;
+    max-width: 20vw;
+    
     min-width: 0;
     min-width: 0;
     font-size: .9rem;
@@ -1353,14 +1352,82 @@ section .after {
         flex-direction: row;
         flex-wrap: nowrap;
         max-width: 70vw;
+        font-size: .9rem;
 
     }
     .user-quotes div {
         width: 40vw;
     }
+
+    .google-search {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 6vw;
+    }
+    
+    .google-search p {
+        max-width: 50vw;
+        padding: 3vw;
+
+    }
+    
+    .google-search img {
+        padding-top: 3rem;
+        min-width: 0;
+        max-width: 90vw;
+        align-self: center;
+    }
+    
+    .competitors {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 1vw;
+        padding-bottom: 4vw;
+        background-color: var(--accent-background);
+        align-self: center;
+        width: 100vw;
+    }
+    
+    .competitors img {
+        width: 80vw;
+        align-self: center;
+        padding-top: 1rem;
+    }
+    .competitors p {
+        background-color: var(--background-color);
+        border-radius: var(--rounded-corners);
+        max-width: 50vw;
+        padding: 3vw;
+        margin-right: 0;
+        margin:5rem;
+        
+        box-shadow: var(--drop-shadow);
+        align-self: center;
+        line-height: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 700px) {
+
+     .did-you-know {
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .why-starbucks {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+
+    }
+
+    .why-starbucks .why-images{
+        position: absolute;
+        left: 55vw;
+        top: -30vw;
+    
+    }
    .team-container .team-member {
        flex-direction: column !important;
     }
