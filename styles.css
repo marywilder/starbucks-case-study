@@ -2,17 +2,17 @@
 /*VARIABLES*/
 @font-face {
     font-family: 'SoDo Sans';
-    src: url(SoDoSans-Regular.ttf);
+    src: url(./fonts/SoDoSans-Regular.ttf) format('ttf');
 }
 
 @font-face {
     font-family: 'SoDo Sans Black';
-    src: url(SoDoSans-Black.ttf);
+    src: url(./fonts/SoDoSans-Black.ttf) format('ttf');
 }
 
 @font-face {
     font-family: 'SoDo Sans Bold';
-    src: url(SoDoSans-Bold.ttf);
+    src: url(./fonts/SoDoSans-Bold.ttf) format('ttf');
 }
 
 
