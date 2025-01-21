@@ -87,7 +87,6 @@ body {
     flex-wrap:nowrap;
     align-content: center;
     justify-content: center;
-    max-width: 100vw;
     margin: 0;
     padding: 0;
     padding-top: 10rem;
@@ -203,7 +202,7 @@ h3 {
 .project-overview {
     text-align: center;
     align-self: center;
-    max-width: 60%;
+    width: 60vw;
 
 
 }
