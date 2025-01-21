@@ -1,5 +1,20 @@
 
 /*VARIABLES*/
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url(SoDoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'SoDo Sans Black';
+    src: url(SoDoSans-Black.ttf);
+}
+
+@font-face {
+    font-family: 'SoDo Sans Bold';
+    src: url(SoDoSans-Bold.ttf);
+}
+
 
 @keyframes arched-text {
     0% {
@@ -64,6 +79,12 @@ body {
     padding-top: 10rem;
    
     
+}
+h1 {
+    font-family: 'Sodo Sans Black';
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'SoDo Sans Bold';
 }
 
 
