@@ -91,15 +91,13 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 10rem;
-    font-family: 'SoDo Sans';
+    
     
 }
-h1 {
-    font-family: 'Sodo Sans Black';
+h1, h2, h3, h4 {
+    font-family: 'Sodo Sans';
 }
-h2, h3, h4, h5, h6 {
-    font-family: 'SoDo Sans Bold';
-}
+
 
 
 nav {
@@ -198,7 +196,10 @@ h1 span {
 
 }
 /*PROJECT OVERVIEW*/
-
+h3 {
+    align-self: center;
+    font-size: 1.7rem;
+}
 .project-overview {
     text-align: center;
     align-self: center;
@@ -926,9 +927,6 @@ min-width: 0;
     aspect-ratio: 1 / 1;
 }
 
-.usability-container {
-
-}
 
 .usability-container section {
     display: flex;
@@ -1293,7 +1291,7 @@ section .after {
 
 
 
-/*@media screen  and (max-width:400px) {
+@media screen  and (max-width:1200px) {
 
     .body {
         margin: 0;
@@ -1301,34 +1299,75 @@ section .after {
         width: 100%;
     }
 
-    h1 {
-        font-size: 2vw;
-    }
-
-    h1 span {
-        font-size: 10vw;
-        font-weight: 900;
-        padding-top: 3vw;
-    }
-    .project-overview {
-        width: 100%;
-        font-size: .75rem;
-        margin:0;
-    }
     .the-team {
         margin: 10vw;
+        width: 70vw;
     }
     .team-container {
         flex-direction: column;
+        align-items: center;
         margin: 1vw;
     }
 
     .team-member {
-        flex-direction:column;
+        margin: 3rem;
     }
 
     .mary {
-        width: 90%;
-        margin: 1rem;
+        width: 45vw;
+    
     }
-}*/
+
+    .mary .team-member {
+       justify-content: flex-start;
+    }
+
+
+    .mary p {
+        color:#033e2b;
+        font-size: 1rem;
+    }
+
+    .role {
+        margin-left: 2rem;
+    }
+    p.role {
+        
+        font-size: .8rem;
+        color: black;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .interviews section {
+        flex-direction: column;
+    }
+
+    .interviews ul {
+        
+        max-width:70vw;
+        padding: 3vw 12vw;
+    }
+
+    section.user-quotes {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        max-width: 70vw;
+
+    }
+    .user-quotes div {
+        width: 40vw;
+    }
+}
+
+
+
+
+
+h2, h3, h4, h5, h6 {
+    font-family: 'SoDo Sans';
+}
+
+
+
