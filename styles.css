@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'SoDo Sans Bold';
-    src: url(./fonts/SoDoSans-Bold.ttf) format('ttf');
+    src: url(./fonts/SoDoSans-SemiBold.ttf) format('ttf');
 }
 
 
@@ -45,7 +45,7 @@ html {
     --rounded-corners: 1rem;
 
     /*FONT*/
-    --font-size-body: 2.5vw;
+    --font-size-body: 2.5rem;
     --heading-2: 1.5rem;
     --font-size-tiny-heading: 1rem;
     --line-height-paragraph: 2rem;
@@ -60,6 +60,7 @@ html {
     max-width:100vw;
     margin: 0;
     overflow-x: hidden;
+    font-family: 'SoDo Sans';
 }
 
 body {
@@ -77,7 +78,7 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 10rem;
-   
+    font-family: 'SoDo Sans';
     
 }
 h1 {
@@ -101,7 +102,7 @@ nav {
     font-weight: 300;
     color: var(--starbucks-green);
     line-height: var(--line-height-paragraph);
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 nav a {
@@ -157,16 +158,17 @@ nav a:active {
 h1 {
     text-align: center;
     font-weight: 350;
-    font-size: 1.25vw;
+    font-size: 1rem;
     background-color:  var(--accent-background);
     padding: 5vw;
     padding-top: 7vw;
     padding-bottom: 7vw;
+    font-family: 'SoDo Sans';
     
 }
 h1 span {
     font-size: 5vw;
-    font-weight: 900;
+    font-family: 'SoDo Sans Black';
     padding-top: 20vw;
 }
 
@@ -195,8 +197,8 @@ h1 span {
 .project-overview section {
     
     padding: var(--section-padding);
-    font-size: 1vw;
-    line-height: 2vw;
+    font-size: 1rem;
+    line-height: 2rem;
     color: white;
     text-align: left;
     background-color: var(--secondary-background);
@@ -210,6 +212,7 @@ h1 span {
 
 .project-overview h3, h4 {
     font-size: var(--heading-2);
+    font-family: 'SoDo Sans Bold';
     
 }
 
@@ -218,8 +221,8 @@ h1 span {
 }
 
 .project-overview {
-    font-size: 1vw;
-    line-height: 2vw;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 /*////////////////////MEET THE TEAM//////////////////*/
@@ -276,13 +279,13 @@ min-width: 0;
 .team-member p:nth-of-type(2){
     font-weight: 350;
     text-transform: uppercase;
-    font-size: 1vw;
+    font-size: .7rem;
 }
 
 .team-member p:nth-of-type(3){
     font-weight: 300;
     text-transform: uppercase;
-    font-size: .8vw;
+    font-size: .7rem;
    
 }
 
@@ -297,7 +300,7 @@ min-width: 0;
     margin: 0 3rem 3rem;
     border-radius: var(--rounded-corners);
     box-shadow: .25rem .25rem 1rem 0 rgba(0, 0, 0, .2);
-    font-size: 1vw;
+    font-size: .7rem;
 
     
 }
@@ -310,7 +313,7 @@ min-width: 0;
     text-align: left;
     font-weight: 700;
     color:var(--starbucks-green);
-    font-size:var(--font-size-tiny-heading);
+    font-size:1rem;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////*/
@@ -319,10 +322,10 @@ min-width: 0;
     display: flex;
     justify-content: center;
     background-color: white;
-    font-size: 3vw;
-    line-height: 10vw;
+    font-size: 2.5rem;
+   
     font-weight: 700;
-    padding: 3vw;
+    padding: 3rem;
     
 
 }
@@ -336,7 +339,7 @@ min-width: 0;
 
 .did-you-know p {
     width: 50%;
-    line-height: 5vw;
+    line-height: 4rem;
 }
 
 .did-you-know a {
@@ -357,7 +360,7 @@ min-width: 0;
     margin: 5vw 40vw 5vw 5vw;
     box-shadow: var(--drop-shadow);
     align-self: flex-start;
-    line-height: 2vw;
+    line-height: 2rem;
 }
 
 
@@ -388,7 +391,7 @@ min-width: 0;
 
 .interviews h4 {
     text-align: center;
-    font-size: 2.25vw;
+    font-size: 2rem;
 }
 
 .interviews section {
@@ -404,8 +407,8 @@ min-width: 0;
 }
 .interviews li {
     padding: 1rem;
-    line-height: 2vw;
-    font-size: 1vw;
+    line-height: 2rem;
+    font-size: 1rem;
 }
 
 .interviews img {
@@ -421,7 +424,7 @@ min-width: 0;
     text-align: center;
     font-weight: 700;
     line-height: 4rem;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 .interviews p span {
@@ -430,8 +433,9 @@ min-width: 0;
 .user-quotes {
     display: flex;
     flex-direction: column;
-    padding: 0 3rem;
-    font-size: 1vw;
+    padding: 0 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
     max-width: 30vw;
 
 }
@@ -440,7 +444,7 @@ min-width: 0;
     color: var(--starbucks-green);
     text-align: left;
     align-self:flex-start;
-    line-height: 2vw;
+    line-height: 2rem;
 }
 
 .user-quotes i {
@@ -449,9 +453,10 @@ min-width: 0;
 }
 
 .user-quotes span {
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     color: var(--star);
-    line-height: -1vw;
+    padding-top: 2rem;
+
 }
 
 
@@ -469,12 +474,12 @@ min-width: 0;
     max-height: 15vw;
     min-width: 0;
     min-width: 0;
-    font-size: 1vw;
+    font-size: .9rem;
     text-align: left;
     padding: 3vw;
     box-shadow: var(--drop-shadow);
     align-self: center;
-    line-height: 2vw;
+    line-height: 1.4rem;
 }
 
 .google-search img {
@@ -502,16 +507,16 @@ min-width: 0;
     background-color: var(--background-color);
     border-radius: var(--rounded-corners);
     max-width: 15vw;
-    max-height: 20vw;
+
     min-width: 0;
     min-width: 0;
-    font-size: 1vw;
+    font-size: .9rem;
     text-align: left;
     padding: 3vw;
     margin-right: 10vw;
     box-shadow: var(--drop-shadow);
     align-self: center;
-    line-height: 2vw;
+    line-height: 1.4rem;
 }
 
 .problem {
@@ -539,11 +544,11 @@ min-width: 0;
     padding: 4rem;
     margin: 2rem;
     border-radius: .75rem;
-    line-height: var(--line-height-paragraph);
+    line-height: 2rem;
     box-shadow: var(--drop-shadow);
     min-width: 0;
     max-width: 60vw;
-    font-size: 1vw;
+    font-size: 1rem;
     
 }
 .problem-header {
@@ -614,7 +619,8 @@ min-width: 0;
 }
 
 .brainstorming h5 {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
+    line-height: 3rem;
     font-weight: 400;
 }
 
@@ -642,12 +648,13 @@ min-width: 0;
 }
 
 .brainstorming-activities h6 {
-    font-size: 1.25vw;
+    font-size: 1.25rem;
     margin: 0;
 }
 
 .brainstorming-activities p {
-    font-size: 1vw;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 .patterns {
@@ -686,7 +693,8 @@ min-width: 0;
 }
 
 .tree p {
-    font-size: 1.25vw;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 .tree p span {
@@ -722,38 +730,39 @@ min-width: 0;
 .sticky-notes {
     display: flex;
     justify-content: space-around;
-    margin: 3vw 10vw 3vw 8vw;
+    margin: 3rem;
 }
 
 .tape {
     position: relative;
     min-width: 0;
-    max-width: 5vh;
+    max-width: 5rem;
     padding: 1vw;
     background-color:#b8ddd279;
-    margin: 0 5vh;
-    top: 2vw;
+    margin: 0 5.5rem;
+    top:2rem;
 }
 
 .sticky-notes p {
     min-width: 0;
     aspect-ratio: 1 / 1;
-    max-width: 10vw;
-    min-height: 10vw;
+    width:10rem;
+    height: 10rem;
     background-color: var(--background-color);
     padding: 2rem;
+    margin: 2rem;
     font-weight: 400;
     color: #033e2b;
     border-radius: .25rem;
     box-shadow: var(--drop-shadow);
-    font-size: 1vw;
+    font-size: .8rem;
     align-content:center;
-    line-height: 1.5vw;
+    line-height: 1.7rem;
 }
 
 .wireframes {
     padding-left: 7vw;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 .wireframes section {
@@ -768,7 +777,7 @@ min-width: 0;
 }
 
 .wireframes h5 {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color:#0e5f45;
 }
 .wireframes h5 span {
@@ -780,11 +789,11 @@ min-width: 0;
     padding: 4rem;
     padding-top: 1rem;
     width: 20vw;
-    height: 37vw;
+    min-height: 37vw;
     border-top-left-radius: .9rem;
     border-bottom-left-radius: .9rem;
     box-shadow: var(--drop-shadow);
-    line-height: 1.5vw;
+    line-height: 2rem;
 }
 
 
@@ -793,11 +802,11 @@ min-width: 0;
     padding: 4rem;
     padding-top: 1rem;
     width: 20vw;
-    height:37vw;
+    
     border-top-right-radius: .9rem;
     border-bottom-right-radius: .9rem;
     box-shadow: var(--drop-shadow);
-    line-height: 1.5vw;
+    line-height: 2rem;
 }
 
 .after-feedback img, .original-concept img {
@@ -828,23 +837,23 @@ min-width: 0;
 .wireframes-comment {
     background-color: white;
     height: auto;
-    width: 15%;
+    font-size: .8rem;
     align-self: center;
     padding: 2vw;
     margin: 3vw;
     border-radius: .7rem;
     box-shadow: var(--drop-shadow);
-    line-height: 1.25vw;
+    line-height: 1.7rem;
 }
 
 .usability {
     display: flex;
     flex-direction: column;
-    font-size: 1vw;
+    font-size: .9rem;
     padding: 10vw;
     padding-top: 0;
     padding-bottom: 0;
-    line-height:1.5vw;
+    line-height: 2rem;
 }
 
 
@@ -875,7 +884,7 @@ min-width: 0;
     padding: 4vw;
     border-radius: .5rem;
     font-weight: 700;
-    line-height:1.5vw;
+    line-height: 2rem;
     box-shadow: var(--drop-shadow);
 
 }
@@ -890,7 +899,7 @@ min-width: 0;
 }
 
 .usability-intro h6 {
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     color: #065139;
 }
 
@@ -928,7 +937,7 @@ section .before {
 }
 
 .usability h5 {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color:#0e5f45;
 }
 
@@ -969,7 +978,7 @@ section .after {
     display: flex;
     position: relative;
     left: -5vw;
-    font-size: 1vw;
+    font-size: 1rem;
     
 }
 
@@ -995,7 +1004,8 @@ section .after {
 }
 
 .usability-nav h6 {
-    font-size: 1vw;
+    font-size: 1rem;
+    font-family: "SoDo Sans Bold";
     padding-left: 5vw;
     color:#094633;
 }
@@ -1089,7 +1099,8 @@ section .after {
 
 
 .solution-1 section, .solution-2 section, .solution-3 section {
-    max-width: 50vw;
+    max-width: 45vw;
+    line-height: 2rem;
 }
 
 .solution-1 h5, .solution-2 h5, .solution-3 h5 {
@@ -1098,14 +1109,15 @@ section .after {
 }
 
 .proto-phone {
-    width: 19.5vw;
-    right: -19vw;
+    width: 15vw;
+    right: -30vw;
     position: absolute;
     z-index: 3;
 }
 
 .solution-image {
-    width: 18vw;
+    width: 14vw;
+    right: -29vw;
     position: absolute;
     border-radius: 3vw;
 }
@@ -1217,7 +1229,7 @@ section .after {
 
 .learning-note {
     aspect-ratio: 1 / 1;
-    max-width: 15vw;
+    max-width: 20vw;
     min-width: 0vw;
     background-color: var(--accent-background);
     z-index: -1;
