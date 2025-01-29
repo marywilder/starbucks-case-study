@@ -742,6 +742,7 @@ min-width: 0;
 .sticky-notes {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 3rem;
 }
 
@@ -771,6 +772,7 @@ min-width: 0;
     align-content:center;
     line-height: 1.7rem;
 }
+
 
 .wireframes {
     padding-left: 7vw;
@@ -1440,9 +1442,32 @@ section .after {
         margin-bottom: 2rem;
     }
 
+    .wireframes section {
+        flex-flow: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .original-concept, .after-feedback {
+        width: 80vw;
+        padding: 1rem;
+    }
+
+    .after-feedback {
+        border-bottom-left-radius: .9rem;
+        border-top-right-radius: 0;
+    }
+
+    .after-feedback img, .original-concept img {
+        max-width: 70vw;
+        padding: 2rem;
+
 }
 
-
+}
 
 
 
