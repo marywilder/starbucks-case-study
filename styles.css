@@ -1,31 +1,28 @@
 
 /*VARIABLES*/
 @font-face {
-    font-family: 'SoDo Sans', "Public Sans", serif;
-    src: url(./fonts/SoDoSans-Regular.ttf) format('ttf');
-}
-
-@font-face {
-    font-family: 'SoDo Sans Black', "Public Sans", serif;
-    src: url(./fonts/SoDoSans-Black.ttf) format('ttf');
-}
-
-@font-face {
-    font-family: 'SoDo Sans Bold', "Public Sans", serif;
-    src: url(./fonts/SoDoSans-SemiBold.ttf) format('ttf');
-}
-@font-face {
     font-family: 'SoDo Sans';
     src: url(./fonts/SoDoSans-Regular.ttf) format('ttf');
 }
 
 @font-face {
-    font-family: 'SoDo Sans Black', "Public Sans", serif;
+    font-family: 'SoDo Sans Black';
     src: url(./fonts/SoDoSans-Black.ttf) format('ttf');
 }
 
 @font-face {
-    font-family: 'SoDo Sans Bold', "Public Sans", serif;
+    font-family: 'SoDo Sans Bold';
+    src: url(./fonts/SoDoSans-SemiBold.ttf) format('ttf');
+}
+
+
+@font-face {
+    font-family: 'SoDo Sans Black';
+    src: url(./fonts/SoDoSans-Black.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'SoDo Sans Bold';
     src: url(./fonts/SoDoSans-SemiBold.ttf) format('ttf');
 }
 
