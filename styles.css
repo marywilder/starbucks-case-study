@@ -80,6 +80,7 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 10rem;
+    overflow-x: hidden;
     
     
 }
@@ -169,6 +170,7 @@ h1 span {
     font-size: 5vw;
     font-family: 'SoDo Sans', sans-serif;
     padding-top: 20vw;
+    font-weight: 900;
 }
 
 .header-mockup {
@@ -1209,10 +1211,13 @@ section .after {
     justify-content: space-around;
     min-width: 0;
     max-width: 100vw;
-    padding: 2rem;
+    padding: 4rem;
+    padding-bottom: 10rem;
 }
 
-
+.learning h4 {
+    padding-left: 2rem;
+}
 .learning-tape {
     position: relative;
     min-width: 0;
@@ -1229,27 +1234,29 @@ section .after {
 }
 
 .learning-note {
-    aspect-ratio: 1 / 1;
-    max-width: 20vw;
-    min-width: 0vw;
+    aspect-ratio: 1;
+    max-width: 15rem;
+    min-width: 10vw;
     background-color: var(--accent-background);
     z-index: -1;
     margin: 1rem;
     border-radius: .5rem;
     box-shadow: var(--drop-shadow);
     padding: 1rem;
-    font-size: .8rem;
+    font-size: 1rem;
+    color: white;
 }
 
 .learning-note h6 {
-    font-size: .9rem;
+    font-size: 1.2rem;
     padding: 0;
     margin: 1rem 0.2rem .7rem;
 
 }
 .learning-note p {
     padding: 0;
-    line-height: 1.5rem;
+    line-height: 2rem;
+
 }
 
 #sticky1 {
@@ -1257,26 +1264,30 @@ section .after {
 }
 
 #sticky2 {
-    background-color: #c5e4dc;
+    background-color: #a6c5bd;
 }
 
 #sticky3 {
-    background-color: #73b6a3;
+    background-color: #74b6a4;
     color: white;
 }
 
 #sticky4 {
-    background-color: #a0ccbf;
+    background-color: #a6cbbf;
     color: white;
 
 }
 
 #sticky5 {
     background-color: #7fb7a7;
-    color: white
+    color: white;
 }
 #sticky6 {
-    background-color: #a0e4d2;
+    background-color: #add4ca;
+}
+
+#sticky7 {
+    background-color: #8fbfb4;
 }
 
 
