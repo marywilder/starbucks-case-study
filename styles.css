@@ -2,28 +2,21 @@
 /*VARIABLES*/
 @font-face {
     font-family: 'SoDo Sans';
-    src: url(./fonts/SoDoSans-Regular.ttf) format('ttf');
+    src: url(./fonts/SoDoSans-Regular.ttf) format('truetype');
+    font-weight: normal;
 }
 
 @font-face {
-    font-family: 'SoDo Sans Black';
-    src: url(./fonts/SoDoSans-Black.ttf) format('ttf');
+    font-family: 'SoDo Sans';
+    src: url(./fonts/SoDoSans-Black.ttf) format('truetype');
+    font-weight: 900;
+    
 }
 
 @font-face {
-    font-family: 'SoDo Sans Bold';
-    src: url(./fonts/SoDoSans-SemiBold.ttf) format('ttf');
-}
-
-
-@font-face {
-    font-family: 'SoDo Sans Black';
-    src: url(./fonts/SoDoSans-Black.ttf) format('ttf');
-}
-
-@font-face {
-    font-family: 'SoDo Sans Bold';
-    src: url(./fonts/SoDoSans-SemiBold.ttf) format('ttf');
+    font-family: 'SoDo Sans';
+    src: url(./fonts/SoDoSans-SemiBold.ttf) format('truetype');
+    font-weight: 600;
 }
 
 @keyframes arched-text {
