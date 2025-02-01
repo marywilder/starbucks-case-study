@@ -815,6 +815,14 @@ min-width: 0;
     line-height: 2rem;
 }
 
+.wireframes-comment1 {
+    display: block;
+}
+
+.wireframes-comment2 {
+    display: none;
+}
+
 .after-feedback img, .original-concept img {
     max-width:20vw;
 }
@@ -1411,6 +1419,21 @@ section .after {
 }
 
 @media screen and (max-width: 700px) {
+    nav {
+        top:0;
+        z-index: 10;
+    
+    }
+
+    nav a {
+        margin: 0;
+        width: 6rem;
+        font-size: .6rem;
+    }
+
+    .project-overview {
+        width: 90vw;
+    }
 
      .did-you-know {
         flex-direction: column;
@@ -1420,6 +1443,13 @@ section .after {
         margin: 0;
         font-size: 1.5rem;
         line-height: 2rem;
+
+    }
+
+    .did-you-know img {
+        max-width: 60vw;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
 
     .did-you-know p {
@@ -1438,6 +1468,12 @@ section .after {
         top: -30vw;
     
     }
+
+    .the-team {
+        width: 100vw;
+        margin: 0rem;
+        margin-bottom: 5rem;
+    }
    .team-container .team-member {
        flex-direction: column !important;
     }
@@ -1450,6 +1486,15 @@ section .after {
         margin-bottom: 2rem;
     }
 
+    .mary {
+        margin: 0;
+        width: 70vw;
+    }
+
+    .mary p.role {
+        line-height: 1.8rem;
+    }
+
     section .user-quotes {
         flex-direction: column;
         position: relative;
@@ -1459,11 +1504,58 @@ section .after {
         left: -3rem;
     }
 
+    .interviews p {
+        margin: 1rem;
+    }
+
     .interviews p span {
         font-size: 2rem;
     }
-    
 
+    .competitors p {
+        max-width: 65vw;
+        padding: 2rem;
+    }
+
+    .brainstorming-activities p {
+        max-width: 80vw;
+    }
+    
+    img .user-flow {
+        position: relative;
+        right: 5rem;
+    }
+
+    .tree {
+        padding: 0;
+        margin: 0;
+    }
+
+    .tree p {
+        padding: 2rem;
+        padding-top: 3rem;
+    }
+
+    .tree h5 {
+        margin: 2rem;
+    }
+
+    .tree-description {
+        margin: 2rem;
+        width: 70vw;
+    }
+    .tree-img1 {
+        min-width: 4rem;
+        z-index: 0;
+        top: -4rem;
+        left: 4rem;
+        width: 8rem;
+    }
+    .tree-img2 {
+        top: 2rem;
+        max-width: 90vw;
+        width: 90vw;
+    }
     .wireframes section {
         flex-flow: column;
         align-content: center;
@@ -1472,10 +1564,12 @@ section .after {
         margin: 0;
         padding: 0;
     }
-
+    .wireframes section:nth-of-type(2) {
+        margin-top: 4rem;
+    }
     .original-concept, .after-feedback {
-        width: 80vw;
-        padding: 1rem;
+        width: 100vw;
+        padding: 2rem;
     }
 
     .after-feedback {
@@ -1487,7 +1581,20 @@ section .after {
         max-width: 70vw;
         padding: 2rem;
 
-}
+    }
+
+    .after-feedback p, .original-concept p {
+        padding: 0 3rem;
+       
+    }
+
+    .wireframes-comment1 {
+        display: none;
+    }
+
+    .wireframes-comment2 {
+        display: block;
+    }
 
 .usability {
     margin: 0rem;
@@ -1534,6 +1641,36 @@ section .after {
     flex-direction: column;
     
 }
+.before, .after, .after1 {
+    flex-direction: column;
+}
+.after1 {
+    height: 40rem;
+}
+.usability2p {
+    width: 40vw;
+    padding:5rem;
+    padding-left: 1rem;
+
+}
+#usability-image2 {
+    width: 70vw;
+    right: 20rem;
+    left: 0;
+    transform: translateY(10rem);
+}
+.usability-nav h5, .usability-nav h6 {
+    padding-left: 2rem;
+}
+
+.usability h5 {
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+}
+.before img, .after img {
+    width: 50vw;
+    padding: 2rem;
+}
 .before div {
     width: 11.5rem;
 }
@@ -1553,6 +1690,61 @@ section .after {
 section .after p {
     width: 100%;
 }
+.usability-container section .dots {
+    flex-direction: row;
+    
+}
+
+.usability-container section a {
+    width: 2rem;
+    height: 2rem;
+    margin: .5rem;
+    margin-top: 2rem;
+    
+}
+
+.solution-1 {
+    flex-direction: column;
+    height: 75rem;
+}
+
+.solution-2{
+    flex-direction: column;
+    height: 70rem;
+    border-bottom: 1rem solid #4F9B86;
+}
+
+.solution-3 {
+    flex-direction: column;
+    height: 65rem;
+}
+.solution-1 p, .solution-2 p, .solution-3 p {
+    width: 90vw;
+}
+
+.solution-image {
+    width: 13.5rem;
+    left: 2.5rem;
+    transform: translateY(2.75rem);
+}
+
+.proto-phone {
+    width: 15rem;
+    left: 2rem;
+    transform: translateY(2.5rem);
+}
+.next-steps {
+    margin: 0;
+    padding: 0;
+    padding-left: 2rem;
+    margin-top: 5rem;
+    
+}
+.next-steps p {
+    width: 20rem;
+    line-height: 2rem;
+}
+
 }
 
 
