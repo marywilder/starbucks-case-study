@@ -895,10 +895,7 @@ min-width: 0;
 
 }
 
-.usability-intro div {
-    max-width: 50vw;
-    line-height:2vw;
-}
+
 
 .usability-intro {
     font-weight: 400;
@@ -1354,12 +1351,15 @@ section .after {
     section.user-quotes {
         flex-direction: row;
         flex-wrap: nowrap;
-        max-width: 70vw;
+        max-width: 100vw;
         font-size: .9rem;
+        padding: 0;
 
     }
     .user-quotes div {
-        width: 40vw;
+        position: relative;
+        width: 20rem;
+        left: -3rem;
     }
 
     .google-search {
@@ -1416,7 +1416,14 @@ section .after {
         flex-direction: column;
         align-self: center;
         align-items: center;
-        padding: 2rem;
+        padding: 0rem;
+        margin: 0;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .did-you-know p {
+        margin:0;
     }
     .why-starbucks {
         display: flex;
@@ -1443,6 +1450,20 @@ section .after {
         margin-bottom: 2rem;
     }
 
+    section .user-quotes {
+        flex-direction: column;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 8rem;
+        left: -3rem;
+    }
+
+    .interviews p span {
+        font-size: 2rem;
+    }
+    
+
     .wireframes section {
         flex-flow: column;
         align-content: center;
@@ -1468,6 +1489,70 @@ section .after {
 
 }
 
+.usability {
+    margin: 0rem;
+    padding-left:0;
+    padding-right: 0;
+}
+.usability-header {
+    width: 10rem;
+    top: 4rem;
+}
+
+.usability-cup {
+    width: 5rem;
+    top: -2.5rem;
+    left: 10.7rem;
+}
+
+.usability-intro {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-background);
+    color: white;
+    padding: 2rem;
+    border-radius: .5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    box-shadow: var(--drop-shadow);
+    
+}
+
+.usability-intro p {
+    
+}
+.usability-intro ul {
+    width: 17rem;
+    
+}
+
+.usability-container {
+    width: 100vw;
+}
+
+.usability-container  section{
+    flex-direction: column;
+    
+}
+.before div {
+    width: 11.5rem;
+}
+section .before {
+    width: 100vw;
+}
+section .before p {
+    width: 100%;
+}
+
+.after div {
+    width: 11.5rem;
+}
+section .after {
+    width: 100vw;
+}
+section .after p {
+    width: 100%;
+}
 }
 
 
