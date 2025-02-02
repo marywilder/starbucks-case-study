@@ -1047,22 +1047,23 @@ section .after {
     position: absolute;
     left: 57vw;
 }
+
+.solution-header-container {
+    margin-top: 15rem;
+}
 .solution-header {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-self: center;
-    position: relative;
-    top:7rem;
+    position: absolute;
+    left: 40vw;
+    top: -8rem;
     z-index: -1;
     width: 20vw;
     animation: arched-text 2s;
 }
 .solution-star {
-    width: 11vw;
+    width: 8rem;
     position:absolute;
-    left: 44vw;
-    top: -5vw;
+    left: 45.5vw;
+    top: -4rem;
 }
 .solution-nav {
     display: flex;
@@ -1117,17 +1118,19 @@ section .after {
 }
 
 .proto-phone {
-    width: 15vw;
-    right: -30vw;
+    width: 12rem;
+    right: -31vw;
     position: absolute;
     z-index: 3;
+  
 }
 
 .solution-image {
-    width: 14vw;
-    right: -29vw;
+    width: 11rem;
+    right: -30.5vw;
     position: absolute;
-    border-radius: 3vw;
+    border-radius: 1.7rem;
+   
 }
 
 .next-steps {
